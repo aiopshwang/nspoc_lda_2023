@@ -2,6 +2,11 @@
 
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/bmabey/pyLDAvis@3.4.0/pyLDAvis/js/ldavis.v1.0.0.css">
 
+<style>
+    body, p, div, span, li, h1, h2, h3, h4, h5, h6 {
+        color: white !important;
+    }
+</style>
 
 <div id="ldavis_el2314981401783958441601223780700" style="background-color:black;"></div>
 <script type="text/javascript">
