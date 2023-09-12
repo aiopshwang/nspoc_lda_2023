@@ -72,7 +72,7 @@ if(typeof(LDAvis) !== "undefined"){
     // require.js not available: dynamically load d3 & LDAvis
     LDAvis_load_lib("https://d3js.org/d3.v5.js", function(){
          //LDAvis_load_lib("https://cdn.jsdelivr.net/gh/bmabey/pyLDAvis@3.4.0/pyLDAvis/js/ldavis.v3.0.0.js", function(){
-         LDAvis_load_lib("./add.jss", function(){
+         LDAvis_load_lib("./add.js", function(){
           
                  new LDAvis("#" + "ldavis_el2314981401783958441601223780700", ldavis_el2314981401783958441601223780700_data);
             })
